@@ -29,8 +29,6 @@
     root.I18n = factory(root);
   }
 }(this, function(global) {
-  "use strict";
-
   // Use previously defined object if exists in current scope
   var I18n = global && global.I18n || {};
 
