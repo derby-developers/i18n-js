@@ -1,7 +1,6 @@
 // https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/indexOf
 if (!Array.prototype.indexOf) {
     Array.prototype.indexOf = function (searchElement /*, fromIndex */ ) {
-        "use strict";
         if (this == null) {
             throw new TypeError();
         }
@@ -97,8 +96,6 @@ if (!Array.prototype.some)
 {
   Array.prototype.some = function(fun /*, thisArg */)
   {
-    'use strict';
-
     if (this === void 0 || this === null)
       throw new TypeError();
 
